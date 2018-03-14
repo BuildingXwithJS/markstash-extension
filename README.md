@@ -2,7 +2,7 @@
 
 > Free open-source tutorial on building simple chrome extension
 
-This repository contains code and related materials for [Building simple chrome extension]() video.
+This repository contains code and related materials for [Building simple chrome extension](https://www.youtube.com/watch?v=meaEhtZfTLU) video.
 
 ## Project description
 
