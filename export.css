@@ -1,0 +1,54 @@
+body {
+  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 2em;
+}
+
+body {
+  margin: 10px;
+  white-space: nowrap;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+textarea:not([rows]) {
+  max-height: 600px;
+  min-height: 120px;
+}
+textarea {
+  display: block;
+  padding: 0.625em;
+  resize: vertical;
+}
+
+textarea {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1.5rem;
+  height: 2.25em;
+  justify-content: flex-start;
+  line-height: 1.5;
+  position: relative;
+  vertical-align: top;
+  background-color: white;
+  border-color: #dbdbdb;
+  color: #363636;
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+}
+
+#clearBtn {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  width: 200px;
+  align-self: flex-end;
+  background-color: #ff3860;
+  border-color: transparent;
+  color: #fff;
+}

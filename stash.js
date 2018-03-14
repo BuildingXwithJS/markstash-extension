@@ -16,6 +16,11 @@ const render = async () => {
   // get button pointers
   const container = document.getElementById('container');
 
+  if (!links.length) {
+    container.innerHTML = '<h2>No links stored yet!</h2>';
+    return;
+  }
+
   container.innerHTML = `
 <ul>
   ${links.map(renderLink).join('')}
